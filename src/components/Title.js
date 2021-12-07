@@ -18,6 +18,7 @@ const Title = () => {
     dispatch(updateTitle(title));
   }
 
+  console.log("0/5. Renders Title Component");
   return (
     <div>
       <h1>{state.appName}</h1>
