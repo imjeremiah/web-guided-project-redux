@@ -12,7 +12,7 @@ const TitleForm = (props) => {
   };
 
   const handleSubmit = ()=> {
-      props.dispatch(updateTitle(newTitleText));
+      props.updateTitle(newTitleText);
   }
   
   return(<div>
