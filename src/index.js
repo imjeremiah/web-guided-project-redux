@@ -12,7 +12,7 @@ import './styles.css';
 
 const store = createStore(reducer);
 
-console.log(store);
+console.log(store.getState());
 
 function App() {
   return (
