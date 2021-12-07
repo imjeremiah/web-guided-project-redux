@@ -20,7 +20,7 @@ const reducer = (state = initialState, action) => {
         case(ADD_MEMBER):
             return ({
                 ...state,
-                members: [...state.members, {name: action.payload, dragonStatus:true}]
+                members: [...state.members, action.payload]
             });
         default:
             return state;
