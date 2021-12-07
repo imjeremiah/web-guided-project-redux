@@ -7,15 +7,15 @@ import TitleDisplay from './TitleDisplay';
 import TitleForm from './TitleForm';
 
 const Title = () => {
-  const [state, dispatch] = useReducer(titleReducer, initialState);
+  // const [state, dispatch] = useReducer(titleReducer, initialState);
 
   const handleToggleEditing = () => {
     console.log("1. Captures button click");
-    dispatch(toggleEditing());
+    // dispatch(toggleEditing());
   }
 
   const handleTitleUpdate = (title) => {
-    dispatch(updateTitle(title));
+    // dispatch(updateTitle(title));
   }
 
   console.log("0/5. Renders Title Component");
