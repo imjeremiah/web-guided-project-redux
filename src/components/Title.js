@@ -41,7 +41,6 @@ const mapStateToProps = (state) => {
   }
 }
 
-
 export default connect(mapStateToProps)(Title);
 //mapStateToProps: function that gets state as an argument, and return an object that is injected into a component's props
 //mapActionsToProps: an object that should hold action creator functions. Functions are injected into props AND automatically dispatch when executed
