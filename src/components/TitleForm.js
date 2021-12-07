@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 
+import { connect } from 'react-redux';
+
+import { updateTitle } from './../actions/titleActions'
+
 const TitleForm = (props) => {
   const [newTitleText, setNewTitleText] = useState();
 
