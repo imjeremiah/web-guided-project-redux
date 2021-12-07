@@ -15,3 +15,8 @@ const initialState = {
 //2. create a switch statement that handles action.types
 //3. create a case for addMember
 //4. default case
+const reducer = (state = initialState, action) => {
+    switch(action.type) {
+        
+    }
+}
