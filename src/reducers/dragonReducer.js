@@ -2,7 +2,7 @@
 //1. initialize initialState
 //2. add members as a empty array
 //3. export initialState
-const initialState = {
+export const initialState = {
     members: [
         { name: 'Jojo Zhang', dragonStatus: true },
         { name: 'Brandon Harris', dragonStatus: false }
@@ -26,3 +26,5 @@ const reducer = (state = initialState, action) => {
             return state;
     }
 }
+
+export default reducer;
