@@ -1,3 +1,5 @@
+import { ADD_MEMBER } from './../actions/dragonActions';
+
 //Setup State
 //1. initialize initialState
 //2. add members as a empty array
