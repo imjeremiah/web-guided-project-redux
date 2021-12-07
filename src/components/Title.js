@@ -11,11 +11,11 @@ import TitleForm from './TitleForm';
 const Title = (props) => {
   const handleToggleEditing = () => {
     console.log("1. Captures button click");
-    // dispatch(toggleEditing());
+    props.dispatch(toggleEditing());
   }
 
   const handleTitleUpdate = (title) => {
-    // dispatch(updateTitle(title));
+    props.dispatch(updateTitle(title));
   }
 
   console.log("props: ", props);
