@@ -2,6 +2,13 @@
 //1. initialize initialState
 //2. add members as a empty array
 //3. export initialState
+const initialState = {
+    members: [
+        { name: 'Jojo Zhang', dragonStatus: true },
+        { name: 'Brandon Harris', dragonStatus: false }
+    ]
+}
+
 
 //Setup Reducer function
 //1. Create function with state and action.
