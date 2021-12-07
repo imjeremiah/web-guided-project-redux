@@ -1,5 +1,7 @@
 import React, { useReducer } from 'react';
 
+import { connect } from 'react-redux';
+
 import titleReducer, { initialState } from '../reducers/titleReducer';
 import { toggleEditing, updateTitle} from './../actions/titleActions';
 
