@@ -1,10 +1,10 @@
 import { UPDATE_TITLE, TOGGLE_EDITING} from './../actions/titleActions';
 
 export const initialState = {
-    appName: "Redux Test",
-    title: "Dragon Member List 🐲",
-    editing: false
-  };
+  appName: "Redux Test",
+  title: "Dragon Member List 🐲",
+  editing: false
+};
   
 const titleReducer = (state, action) => {
   console.log("3. Inside the reducer");
