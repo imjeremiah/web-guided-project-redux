@@ -15,7 +15,7 @@ class DragonList extends React.Component {
   };
 
   handleClick = ()=> {
-    // this.props.dispatch(addMember(this.state.newMember));
+    this.props.dispatch(addMember(this.state.newMember));
   }
 
   render() {
