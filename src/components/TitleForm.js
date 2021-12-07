@@ -7,6 +7,7 @@ import { updateTitle } from './../actions/titleActions'
 const TitleForm = (props) => {
   const [newTitleText, setNewTitleText] = useState();
 
+  console.log(props);
   const handleChanges = e => {
       setNewTitleText(e.target.value);
   };
@@ -30,4 +31,4 @@ const TitleForm = (props) => {
       </div>);
 }
 
-export default TitleForm;
+export default connect()(TitleForm);
