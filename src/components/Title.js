@@ -20,6 +20,8 @@ const Title = (props) => {
     // dispatch(updateTitle(title));
   }
 
+  console.log(props);
+  
   console.log("0/5. Renders Title Component");
   return (
     <div>
@@ -34,7 +36,10 @@ const Title = (props) => {
 };
 
 const mapStateToProps = () => {
-
+  return {
+    prop1: "warren",
+    prop2: "longmire"
+  }
 }
 
 
