@@ -15,7 +15,7 @@ const store = createStore(reducer);
 function App() {
   return (
     <div className="App">
-      <Title />
+      <Title/>
       <DragonList />
     </div>
   );
