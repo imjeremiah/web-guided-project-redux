@@ -26,7 +26,7 @@ const Title = (props) => {
       <h1>{props.appName}</h1>
       {
         !props.editing ? 
-          <TitleDisplay title={props.title} handleToggleEditing={handleToggleEditing}/>: 
+          <TitleDisplay handleToggleEditing={handleToggleEditing}/>: 
           <TitleForm handleTitleUpdate={handleTitleUpdate}/>
       }
     </div>
