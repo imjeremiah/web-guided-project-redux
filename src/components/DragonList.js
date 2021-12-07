@@ -19,7 +19,7 @@ class DragonList extends React.Component {
     //   ...this.state,
     //   members: [...this.members, {name: newMember, dragonStatus: true}]
     // })
-    this.props.dispatch(addMember(newMember));
+    this.props.dispatch(addMember(this.state.newMember));
   }
 
   render() {
