@@ -46,4 +46,4 @@ const mapStateToProps = (state)=> {
   })
 }
 
-export default connect()(DragonList);
+export default connect(mapStateToProps)(DragonList);
