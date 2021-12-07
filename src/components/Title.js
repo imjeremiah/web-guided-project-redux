@@ -27,7 +27,6 @@ const Title = (props) => {
 };
 
 const mapStateToProps = (state) => {
-
   return {
     appName: state.title.appName,
     editing: state.title.editing
