@@ -21,10 +21,12 @@ class DragonList extends React.Component {
   }
 
   render() {
+    console.log(this.props);
+
     return (
       <div>
         <div className="friends-list">
-          {this.state.members.map((member, index) => (
+          {this.props.members.map((member, index) => (
             <DragonMember key={index} member={member}/>
           ))}
         </div>
