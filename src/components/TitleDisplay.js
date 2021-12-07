@@ -8,9 +8,6 @@ const TitleDisplay = (props)=> {
     props.toggleEditing();
   }
 
-
-  console.log("props, ", props);
-
   return(<h2>
       {props.title}{' '}
       <i
